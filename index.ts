@@ -29,10 +29,6 @@ function isHorizontal(line: Line) {
     return line.p1.y === line.p2.y;
 }
 
-function isVertical(line: Line) {
-    return line.p1.x === line.p2.x;
-}
-
 function parsePoint(p: string) {
     const [x, y] = p.split(",");
     return {
